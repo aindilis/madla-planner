@@ -1,0 +1,22 @@
+domain,problem,agents,heuristic,recursionLevel,totalTime,initHeuristic,initHeuristicDist,searchTime,expandedStates,expandedStatesGlobal,expandedStatesLocal,searchMessages,heuristicRequestMessages,heuristicReplyMessages,totalMessages,totalBytes,globalSearchTime,localSearchTime,globalHeuristicTime,localHeuristicTime,otherHeuristicTime,searchTimes,globalSearchTimes,localSearchTimes,globalHeuristicTimes,localHeuristicTimes,otherHeuristicTimes,planLength,maxRecursionDepth,planValid,finished
+./benchmarks/rovers,./benchmarks/rovers/p01.pddl,1,glcl,1,-1,{},{},0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,2147483647,0,false,false
+./benchmarks/rovers,./benchmarks/rovers/p01.pddl,1,glcl,1,-1,{},{},0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,2147483647,0,false,false
+./benchmarks/rovers,./benchmarks/rovers/p01.pddl,1,fifo,1,-1,{},{},0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,2147483647,0,false,false
+./benchmarks/rovers,./benchmarks/rovers/p01.pddl,1,async,1,-1,{},{},0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,2147483647,0,false,false
+./benchmarks/rovers,./benchmarks/rovers/p01.pddl,1,bf,1,-1,{},{},0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,2147483647,0,false,false
+./benchmarks/rovers,./benchmarks/rovers/p01.pddl,1,add-glcl,1,202,{},{rover0=9},0,30,30,0,0,0,0,0,0,0,0,0,0,0,,,,,,,12,0,true,true
+./benchmarks/elevators08,./benchmarks/elevators08/p01.pddl,4,add-glcl,1,1071,{slow0-0=4 slow1-0=9 fast1=4 fast0=4},{slow0-0=26 slow1-0=25 fast1=26 fast0=25},0,678,7,672,137,1165,1166,2468,94452,0,0,0,0,0,,,,,,,31,1,true,true
+./benchmarks/rovers,./benchmarks/rovers/p01.pddl,1,add-glcl,1,199,{},{rover0=9},0,30,30,0,0,0,0,0,0,0,0,0,0,0,,,,,,,12,0,true,true
+./benchmarks/sokoban,./benchmarks/sokoban/p01.pddl,2,add-glcl,1,1351,{player-01=2 player-02=12},{player-01=26 player-02=7},0,1080,17,1063,794,1718,1719,4231,306512,0,0,0,0,0,,,,,,,40,1,true,true
+./benchmarks/sokoban,./benchmarks/sokoban/p01.pddl,2,add-glcl,2,1135,{player-01=2 player-02=12},{player-01=42 player-02=7},0,1020,15,1005,770,1505,1506,3781,275936,0,0,0,0,0,,,,,,,42,2,true,true
+./benchmarks/sokoban,./benchmarks/sokoban/p01.pddl,2,add-glcl,1,1714,{player-01=2 player-02=12},{player-01=26 player-02=7},0,6684,40,6645,4841,4097,4097,13035,1037772,0,0,0,0,0,,,,,,,54,1,true,true
+./benchmarks/sokoban,./benchmarks/sokoban/p01.pddl,2,add-glcl,1,1766,{player-01=2 player-02=12},{player-01=26 player-02=7},0,4657,42,4615,3349,4310,4311,11970,911632,0,0,0,0,0,,,,,,,58,1,true,true
+./benchmarks/sokoban,./benchmarks/sokoban/p01.pddl,2,add-glcl,1,1478,{player-01=2 player-02=12},{player-01=26 player-02=7},0,2427,28,2399,1815,2861,2862,7538,562432,0,0,0,0,0,,,,,,,46,1,true,true
+./benchmarks/sokoban,./benchmarks/sokoban/p01.pddl,2,add-glcl,1,1334,{player-01=2 player-02=12},{player-01=26 player-02=7},0,2025,21,2004,1599,2100,2101,5800,439456,0,0,0,0,0,,,,,,,46,1,true,true
+./benchmarks/sokoban,./benchmarks/sokoban/p01.pddl,2,add-glcl,1,1668,{player-01=2 player-02=12},{player-01=26 player-02=7},0,2576,33,2547,1831,3401,3398,8630,633956,0,0,0,0,0,,,,,,,63,1,true,true
+./benchmarks/sokoban,./benchmarks/sokoban/p01.pddl,2,add-glcl,1,1479,{player-01=2 player-02=12},{player-01=26 player-02=7},0,2178,15,2163,1759,1466,1466,4691,373520,0,0,0,0,0,,,,,,,43,1,true,true
+./benchmarks/sokoban,./benchmarks/sokoban/p01.pddl,2,add-glcl,1,1426,{player-01=2 player-02=12},{player-01=26 player-02=7},0,2191,20,2171,1441,2139,2140,5720,427904,0,0,0,0,0,,,,,,,37,1,true,true
+./benchmarks/sokoban,./benchmarks/sokoban/p01.pddl,2,add-glcl,1,1724,{player-01=2 player-02=12},{player-01=26 player-02=7},0,2210,28,2182,1624,2861,2862,7347,542080,0,0,0,0,0,,,,,,,55,1,true,true
+./benchmarks/sokoban,./benchmarks/sokoban/p01.pddl,2,add-glcl,1,1467,{player-01=2 player-02=12},{player-01=26 player-02=7},0,922,13,909,670,1274,1275,3219,235476,0,0,0,0,0,,,,,,,42,1,true,true
+./benchmarks/sokoban,./benchmarks/sokoban/p01.pddl,2,add-glcl,1,1544,{player-01=2 player-02=12},{player-01=26 player-02=7},0,1027,15,1012,766,1465,1466,3697,270236,0,0,0,0,0,,,,,,,39,1,true,true
+./benchmarks/sokoban,./benchmarks/sokoban/p01.pddl,2,add-glcl,1,1252,{player-02=12 player-01=12},{player-02=25 player-01=35},0,2052,40,2012,1547,2587,2586,6720,494036,0,0,0,0,0,,,,,,,61,1,true,true

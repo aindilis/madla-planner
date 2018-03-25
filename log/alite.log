@@ -8,3 +8,593 @@ java.lang.NumberFormatException: For input string: "add"
 	at cz.agents.alite.Main.main(Main.java:18)
 2016-02-05 03:13:45 [FATAL]: cz.agents.madla.creator.SASCreator - SAS file output does not exist!
 2016-02-05 03:14:12 [WARN ]: cz.agents.dimaptools.search.DistributedBestFirstSearch -  by me (rover0) - 499
+2017-02-27 12:48:59 [ERROR]: cz.agents.madla.planner.Planner - Unknown evaluator glcl
+java.lang.RuntimeException: Unknown evaluator glcl
+	at cz.agents.madla.planner.Planner.<init>(Planner.java:242)
+	at cz.agents.madla.creator.SASCreator.createEntities(SASCreator.java:215)
+	at cz.agents.madla.creator.SASCreator.create(SASCreator.java:152)
+	at cz.agents.alite.Main.main(Main.java:18)
+2017-02-27 12:48:59 [ERROR]: cz.agents.madla.creator.SASCreator - Uncaught exception in agent/planner thread!
+java.lang.NullPointerException
+	at cz.agents.dimaptools.heuristic.relaxed.RelaxationHeuristic.relaxedExploration(RelaxationHeuristic.java:304)
+	at cz.agents.dimaptools.heuristic.relaxed.RecursiveDistributedRelaxationRequestHeuristic.getHeuristic(RecursiveDistributedRelaxationRequestHeuristic.java:151)
+	at cz.agents.dimaptools.search.DistributedBestFirstSearch.plan(DistributedBestFirstSearch.java:232)
+	at cz.agents.madla.planner.Planner.planAndExecuteFinal(Planner.java:427)
+	at cz.agents.madla.creator.SASCreator$2.run(SASCreator.java:284)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-27 12:50:39 [ERROR]: cz.agents.madla.planner.Planner - Unknown evaluator glcl
+java.lang.RuntimeException: Unknown evaluator glcl
+	at cz.agents.madla.planner.Planner.<init>(Planner.java:242)
+	at cz.agents.madla.creator.SASCreator.createEntities(SASCreator.java:215)
+	at cz.agents.madla.creator.SASCreator.create(SASCreator.java:152)
+	at cz.agents.alite.Main.main(Main.java:18)
+2017-02-27 12:50:39 [ERROR]: cz.agents.madla.creator.SASCreator - Uncaught exception in agent/planner thread!
+java.lang.NullPointerException
+	at cz.agents.dimaptools.heuristic.relaxed.RelaxationHeuristic.relaxedExploration(RelaxationHeuristic.java:304)
+	at cz.agents.dimaptools.heuristic.relaxed.RecursiveDistributedRelaxationRequestHeuristic.getHeuristic(RecursiveDistributedRelaxationRequestHeuristic.java:151)
+	at cz.agents.dimaptools.search.DistributedBestFirstSearch.plan(DistributedBestFirstSearch.java:232)
+	at cz.agents.madla.planner.Planner.planAndExecuteFinal(Planner.java:427)
+	at cz.agents.madla.creator.SASCreator$2.run(SASCreator.java:284)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-27 12:51:43 [ERROR]: cz.agents.madla.planner.Planner - Unknown evaluator fifo
+java.lang.RuntimeException: Unknown evaluator fifo
+	at cz.agents.madla.planner.Planner.<init>(Planner.java:242)
+	at cz.agents.madla.creator.SASCreator.createEntities(SASCreator.java:215)
+	at cz.agents.madla.creator.SASCreator.create(SASCreator.java:152)
+	at cz.agents.alite.Main.main(Main.java:18)
+2017-02-27 12:51:43 [ERROR]: cz.agents.madla.creator.SASCreator - Uncaught exception in agent/planner thread!
+java.lang.NullPointerException
+	at cz.agents.dimaptools.heuristic.relaxed.RelaxationHeuristic.relaxedExploration(RelaxationHeuristic.java:304)
+	at cz.agents.dimaptools.heuristic.relaxed.RecursiveDistributedRelaxationRequestHeuristic.getHeuristic(RecursiveDistributedRelaxationRequestHeuristic.java:151)
+	at cz.agents.dimaptools.search.DistributedBestFirstSearch.plan(DistributedBestFirstSearch.java:232)
+	at cz.agents.madla.planner.Planner.planAndExecuteFinal(Planner.java:427)
+	at cz.agents.madla.creator.SASCreator$2.run(SASCreator.java:284)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-27 12:51:50 [ERROR]: cz.agents.madla.planner.Planner - Unknown evaluator async
+java.lang.RuntimeException: Unknown evaluator async
+	at cz.agents.madla.planner.Planner.<init>(Planner.java:242)
+	at cz.agents.madla.creator.SASCreator.createEntities(SASCreator.java:215)
+	at cz.agents.madla.creator.SASCreator.create(SASCreator.java:152)
+	at cz.agents.alite.Main.main(Main.java:18)
+2017-02-27 12:51:50 [ERROR]: cz.agents.madla.creator.SASCreator - Uncaught exception in agent/planner thread!
+java.lang.NullPointerException
+	at cz.agents.dimaptools.heuristic.relaxed.RelaxationHeuristic.relaxedExploration(RelaxationHeuristic.java:304)
+	at cz.agents.dimaptools.heuristic.relaxed.RecursiveDistributedRelaxationRequestHeuristic.getHeuristic(RecursiveDistributedRelaxationRequestHeuristic.java:151)
+	at cz.agents.dimaptools.search.DistributedBestFirstSearch.plan(DistributedBestFirstSearch.java:232)
+	at cz.agents.madla.planner.Planner.planAndExecuteFinal(Planner.java:427)
+	at cz.agents.madla.creator.SASCreator$2.run(SASCreator.java:284)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-27 12:51:57 [ERROR]: cz.agents.madla.planner.Planner - Unknown evaluator bf
+java.lang.RuntimeException: Unknown evaluator bf
+	at cz.agents.madla.planner.Planner.<init>(Planner.java:242)
+	at cz.agents.madla.creator.SASCreator.createEntities(SASCreator.java:215)
+	at cz.agents.madla.creator.SASCreator.create(SASCreator.java:152)
+	at cz.agents.alite.Main.main(Main.java:18)
+2017-02-27 12:51:57 [ERROR]: cz.agents.madla.creator.SASCreator - Uncaught exception in agent/planner thread!
+java.lang.NullPointerException
+	at cz.agents.dimaptools.heuristic.relaxed.RelaxationHeuristic.relaxedExploration(RelaxationHeuristic.java:304)
+	at cz.agents.dimaptools.heuristic.relaxed.RecursiveDistributedRelaxationRequestHeuristic.getHeuristic(RecursiveDistributedRelaxationRequestHeuristic.java:151)
+	at cz.agents.dimaptools.search.DistributedBestFirstSearch.plan(DistributedBestFirstSearch.java:232)
+	at cz.agents.madla.planner.Planner.planAndExecuteFinal(Planner.java:427)
+	at cz.agents.madla.creator.SASCreator$2.run(SASCreator.java:284)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-27 12:52:26 [WARN ]: cz.agents.dimaptools.search.GlobalLocalDistributedBestFirstSearch -  by me (rover0) - 168
+2017-02-27 12:53:07 [FATAL]: cz.agents.madla.creator.SASCreator - Agent file ././benchmarks/blocksworld/p01.addl does not exist!
+2017-02-27 12:53:08 [FATAL]: cz.agents.madla.creator.SASCreator - Agent file ././benchmarks/depot/p01.addl does not exist!
+2017-02-27 12:53:08 [FATAL]: cz.agents.madla.creator.SASCreator - Agent file ././benchmarks/driverlog/p01.addl does not exist!
+2017-02-27 12:53:09 [WARN ]: cz.agents.dimaptools.search.GlobalLocalDistributedBestFirstSearch -  by me (slow1-0) - 1042
+2017-02-27 12:53:09 [WARN ]: cz.agents.dimaptools.search.GlobalLocalDistributedBestFirstSearch -  by me (fast1) - 1049
+2017-02-27 12:53:09 [WARN ]: cz.agents.dimaptools.search.GlobalLocalDistributedBestFirstSearch -  by me (slow0-0) - 1056
+2017-02-27 12:53:09 [WARN ]: cz.agents.dimaptools.search.GlobalLocalDistributedBestFirstSearch - slow1-0 receive PLANNING_FINISHED!
+2017-02-27 12:53:09 [WARN ]: cz.agents.alite.communication.zeromq.experimental.SimpleAgent - slow1-0 close connections
+2017-02-27 12:53:09 [WARN ]: cz.agents.dimaptools.search.GlobalLocalDistributedBestFirstSearch - fast1 receive PLANNING_FINISHED!
+2017-02-27 12:53:09 [WARN ]: cz.agents.alite.communication.zeromq.experimental.SimpleAgent - fast1 close connections
+2017-02-27 12:53:10 [FATAL]: cz.agents.madla.creator.SASCreator - Agent file ././benchmarks/logistics00/p01.addl does not exist!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p2 slow1-0 n8 n2 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p1 fast1 n8 n3 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p3 slow0-0 n2 n2 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p0 fast0 n6 n2 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p1 fast0 n4 n0 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p2 fast1 n0 n2 n3 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p2 fast1 n0 n3 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p1 fast0 n8 n1 n0 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p1 fast1 n6 n2 n3 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p1 fast1 n0 n2 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p2 fast1 n0 n1 n0 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION move-up-fast fast1 n0 n8 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p0 fast0 n4 n3 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION move-up-fast fast1 n0 n6 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p3 slow0-0 n2 n0 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION move-up-fast fast1 n0 n4 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p0 slow1-0 n7 n0 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION move-up-fast fast1 n0 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p1 fast0 n0 n2 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p3 fast0 n4 n0 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p2 fast0 n6 n2 n3 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p0 fast0 n6 n0 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p3 fast1 n2 n2 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p1 fast1 n8 n1 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p1 slow0-0 n3 n0 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION move-up-slow slow1-0 n6 n8 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p2 slow1-0 n5 n0 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION move-up-slow slow1-0 n6 n7 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p1 fast1 n6 n0 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p2 fast1 n8 n1 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p1 fast0 n4 n2 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p1 slow1-0 n5 n1 n0 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p3 slow0-0 n3 n1 n0 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p3 slow1-0 n7 n1 n0 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p3 fast1 n0 n2 n3 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p0 slow1-0 n7 n1 n0 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p3 slow0-0 n4 n1 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p1 slow0-0 n2 n2 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p1 fast1 n0 n1 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p3 fast1 n6 n1 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p3 fast1 n6 n3 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p1 slow0-0 n2 n0 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p2 slow1-0 n7 n1 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p0 fast0 n0 n3 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p1 slow0-0 n4 n1 n0 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p2 slow0-0 n4 n1 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p1 fast1 n4 n3 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p2 fast0 n8 n2 n3 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p2 slow0-0 n0 n2 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p1 slow0-0 n1 n0 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p2 slow1-0 n7 n1 n0 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p1 fast1 n8 n2 n3 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION move-up-fast fast1 n2 n8 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION move-up-fast fast1 n2 n6 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION move-up-fast fast1 n2 n4 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p1 slow0-0 n4 n0 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p0 slow1-0 n8 n2 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p0 fast0 n4 n0 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p0 slow1-0 n4 n1 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p0 fast0 n8 n0 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p0 fast0 n4 n1 n0 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p2 fast1 n2 n1 n0 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p3 fast1 n0 n3 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION move-up-fast fast0 n6 n8 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p3 slow1-0 n8 n2 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION move-down-slow slow0-0 n4 n3 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p2 slow1-0 n6 n0 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p2 slow0-0 n3 n2 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p3 fast1 n2 n2 n3 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p2 fast1 n2 n3 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p2 slow0-0 n0 n1 n0 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p3 fast1 n8 n3 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p3 fast0 n8 n3 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p3 fast0 n4 n3 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION move-up-slow slow1-0 n4 n7 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION move-up-slow slow1-0 n4 n8 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION move-up-slow slow1-0 n4 n5 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION move-up-slow slow1-0 n4 n6 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p1 fast1 n8 n2 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p0 fast1 n2 n3 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p0 slow1-0 n6 n2 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p0 fast0 n6 n1 n0 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION move-up-fast fast1 n6 n8 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p1 slow0-0 n2 n1 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p3 slow1-0 n7 n1 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p3 slow0-0 n1 n1 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p0 fast0 n6 n2 n3 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p1 fast1 n2 n1 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p0 slow0-0 n3 n1 n0 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p0 fast0 n0 n1 n0 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p0 slow1-0 n5 n0 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p0 slow0-0 n2 n0 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION move-down-slow slow0-0 n4 n0 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p2 fast1 n8 n2 n3 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION move-down-slow slow0-0 n4 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION move-down-slow slow0-0 n4 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p1 fast0 n6 n2 n3 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p1 fast0 n6 n1 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p1 slow1-0 n8 n2 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p1 fast0 n2 n2 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p0 slow0-0 n2 n1 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p1 fast1 n6 n3 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p3 fast1 n2 n3 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p2 fast0 n4 n3 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION move-down-slow slow0-0 n1 n0 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p0 slow1-0 n6 n1 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p2 fast0 n0 n3 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p0 slow0-0 n1 n2 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p1 fast1 n4 n2 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p2 fast1 n2 n2 n3 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p3 fast0 n2 n2 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p0 slow0-0 n0 n0 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p1 slow1-0 n7 n2 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p0 slow0-0 n1 n0 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p3 slow1-0 n5 n0 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION move-up-fast fast1 n4 n8 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION move-up-fast fast1 n4 n6 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p3 slow1-0 n6 n2 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p2 slow1-0 n6 n2 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p3 fast1 n6 n2 n3 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p1 fast1 n0 n2 n3 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p2 fast0 n2 n1 n0 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION move-down-fast fast0 n2 n0 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p3 fast0 n4 n2 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p0 fast0 n2 n2 n3 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p2 slow0-0 n3 n0 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p0 slow0-0 n3 n1 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p1 fast0 n4 n2 n3 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p2 fast1 n6 n3 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p3 slow1-0 n7 n2 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p3 fast1 n4 n1 n0 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p3 slow0-0 n0 n2 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p3 fast0 n0 n2 n3 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p0 fast1 n2 n2 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION move-down-slow slow1-0 n7 n6 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION move-down-slow slow1-0 n7 n5 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p2 fast0 n6 n1 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION move-down-fast fast0 n6 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION move-down-fast fast0 n6 n0 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION move-down-fast fast0 n6 n4 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p1 fast1 n4 n1 n0 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p1 fast0 n0 n1 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION move-up-slow slow0-0 n3 n4 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p0 fast1 n2 n0 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p3 fast1 n4 n0 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p3 slow1-0 n8 n0 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p2 fast0 n6 n2 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p3 fast1 n0 n0 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p1 fast1 n2 n1 n0 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p3 fast0 n6 n0 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p3 slow1-0 n6 n0 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p1 fast0 n6 n2 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p1 slow1-0 n6 n1 n0 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p0 slow0-0 n4 n0 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p1 slow1-0 n8 n0 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p1 fast1 n6 n1 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p1 fast0 n6 n3 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p2 fast0 n2 n3 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p3 fast0 n2 n1 n0 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p1 fast1 n6 n1 n0 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION move-down-slow slow1-0 n7 n4 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p3 slow1-0 n8 n1 n0 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p3 slow0-0 n4 n2 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p3 fast0 n4 n2 n3 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p0 fast1 n0 n2 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p1 fast1 n0 n0 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p3 fast1 n0 n1 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p1 fast1 n8 n1 n0 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p0 fast0 n8 n2 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION move-up-fast fast0 n4 n8 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION move-up-fast fast0 n2 n4 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p1 fast1 n2 n2 n3 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p3 fast1 n4 n2 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p2 slow0-0 n2 n0 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p3 fast1 n8 n1 n0 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p3 fast1 n0 n1 n0 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p3 fast0 n2 n1 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION move-up-fast fast0 n2 n8 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p2 fast1 n4 n2 n3 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p0 slow1-0 n5 n2 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION move-up-fast fast0 n4 n6 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION move-up-fast fast0 n2 n6 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p2 fast1 n0 n1 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p0 fast0 n2 n2 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p2 fast0 n6 n3 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p2 fast1 n0 n2 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p3 slow1-0 n4 n2 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p1 slow1-0 n5 n1 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p3 fast0 n2 n0 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p3 fast1 n8 n1 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p0 fast1 n0 n0 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p2 slow1-0 n7 n2 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p1 slow1-0 n7 n1 n0 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p2 fast0 n4 n1 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p3 slow0-0 n4 n1 n0 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p0 fast0 n4 n2 n3 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p2 slow0-0 n3 n1 n0 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p2 slow1-0 n4 n0 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p3 fast0 n6 n3 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p3 slow1-0 n4 n1 n0 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p3 fast0 n8 n2 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p0 fast1 n0 n1 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p3 slow0-0 n1 n0 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p0 slow0-0 n2 n2 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p2 slow0-0 n4 n2 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p2 slow0-0 n2 n1 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p1 slow1-0 n7 n0 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p2 slow0-0 n1 n1 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p2 fast1 n8 n0 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p2 fast1 n8 n2 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p2 fast0 n4 n1 n0 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p0 slow0-0 n2 n1 n0 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p1 slow0-0 n0 n0 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p1 fast0 n2 n0 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p2 slow1-0 n8 n1 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p1 fast1 n6 n2 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p1 slow0-0 n0 n1 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p1 fast0 n8 n0 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p2 fast0 n2 n1 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p1 fast0 n2 n2 n3 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p1 slow0-0 n1 n2 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION move-down-fast fast0 n4 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p1 fast0 n8 n2 n3 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p0 slow1-0 n4 n1 n0 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION move-down-fast fast0 n4 n0 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p1 fast0 n2 n1 n0 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p2 slow1-0 n8 n1 n0 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p1 fast1 n2 n0 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p2 fast1 n2 n2 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p1 fast1 n0 n1 n0 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p1 fast0 n0 n3 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p1 fast0 n6 n1 n0 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p2 slow0-0 n3 n1 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p0 slow1-0 n7 n1 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p2 slow1-0 n5 n1 n0 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p1 fast1 n0 n3 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p1 fast0 n0 n1 n0 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p1 slow1-0 n8 n1 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p3 fast0 n0 n2 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p0 fast0 n2 n3 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p2 fast1 n6 n2 n3 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p1 slow1-0 n6 n1 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p2 fast0 n8 n3 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p2 fast1 n4 n1 n0 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p3 fast0 n0 n3 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p1 fast1 n4 n1 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p0 slow0-0 n1 n1 n0 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p1 fast1 n8 n0 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p3 fast0 n2 n3 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p3 slow0-0 n0 n0 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p1 slow0-0 n1 n1 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p2 slow0-0 n1 n0 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p0 fast1 n4 n1 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p0 slow1-0 n7 n2 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p2 slow0-0 n4 n1 n0 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p3 slow0-0 n0 n1 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p2 fast1 n6 n1 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p0 slow1-0 n4 n0 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p0 fast1 n6 n2 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p0 slow0-0 n4 n2 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p3 slow0-0 n2 n1 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p2 fast0 n2 n0 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p1 slow0-0 n4 n1 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p0 slow0-0 n3 n2 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p2 slow1-0 n6 n1 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p0 fast1 n2 n1 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p3 slow1-0 n5 n2 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p2 fast1 n2 n0 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p3 fast0 n0 n1 n0 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p3 fast1 n4 n3 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p1 fast1 n2 n3 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION move-down-fast fast1 n4 n0 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p3 fast1 n2 n1 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION move-down-fast fast1 n4 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p0 slow0-0 n4 n1 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p2 slow1-0 n7 n0 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p3 fast1 n8 n0 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p3 fast0 n6 n1 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p3 slow1-0 n5 n1 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p3 fast1 n8 n2 n3 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p3 slow0-0 n4 n0 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p3 fast0 n0 n0 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p1 slow0-0 n1 n1 n0 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p3 slow1-0 n6 n1 n0 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p0 fast1 n0 n2 n3 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p2 slow1-0 n5 n1 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p3 fast1 n6 n1 n0 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p3 fast0 n8 n0 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p2 fast1 n4 n0 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p2 slow0-0 n2 n1 n0 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p1 slow0-0 n3 n1 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p0 fast1 n6 n1 n0 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p3 slow1-0 n7 n0 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p0 slow1-0 n8 n1 n0 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p2 slow0-0 n2 n2 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p1 fast0 n0 n0 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p3 fast1 n0 n2 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p0 slow0-0 n3 n0 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p0 fast1 n8 n0 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p1 slow0-0 n4 n2 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p3 slow1-0 n8 n1 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p1 slow1-0 n8 n1 n0 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p1 slow1-0 n5 n0 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p0 slow1-0 n4 n2 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p3 fast0 n4 n1 n0 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p1 fast0 n2 n3 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p3 fast0 n4 n1 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p2 fast0 n6 n1 n0 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p0 fast1 n8 n1 n0 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p0 fast0 n4 n1 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p1 slow1-0 n5 n2 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p2 slow1-0 n4 n1 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION move-up-slow slow1-0 n7 n8 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p2 fast0 n8 n1 n0 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p3 fast0 n0 n1 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p0 fast0 n0 n2 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p2 fast0 n8 n2 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p0 fast0 n8 n3 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION move-down-slow slow1-0 n5 n4 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p0 slow1-0 n8 n0 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p1 fast0 n8 n1 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p0 slow1-0 n6 n1 n0 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p0 slow1-0 n8 n1 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p0 slow0-0 n0 n1 n0 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p2 fast1 n4 n3 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p3 fast0 n6 n2 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p2 fast1 n6 n2 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p1 slow0-0 n3 n2 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p2 slow0-0 n4 n0 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p3 fast1 n6 n2 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p2 slow1-0 n8 n0 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p0 fast1 n8 n3 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p1 fast0 n0 n2 n3 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p0 fast1 n6 n2 n3 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p0 fast0 n8 n1 n0 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p1 slow1-0 n7 n1 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p0 slow1-0 n5 n1 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p1 slow0-0 n3 n1 n0 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION move-down-slow slow0-0 n2 n0 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p3 fast0 n8 n1 n0 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p3 slow1-0 n5 n1 n0 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p2 fast1 n2 n1 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p0 fast1 n8 n2 n3 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p0 fast1 n2 n2 n3 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p1 slow1-0 n4 n0 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p1 fast0 n4 n1 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p1 fast1 n2 n2 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p0 fast0 n0 n2 n3 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p1 fast0 n2 n1 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p0 fast0 n2 n0 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p0 fast0 n8 n2 n3 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p3 slow0-0 n3 n0 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p2 slow0-0 n0 n0 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION move-up-fast fast0 n0 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p1 fast1 n4 n0 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION move-up-slow slow0-0 n1 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION move-up-slow slow0-0 n1 n3 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p2 fast0 n4 n2 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION move-up-slow slow0-0 n1 n4 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p2 fast1 n6 n0 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p2 fast1 n0 n0 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION move-up-fast fast0 n0 n8 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p1 fast1 n4 n2 n3 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p3 fast0 n6 n1 n0 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION move-up-fast fast0 n0 n6 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p2 fast0 n6 n0 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION move-up-fast fast0 n0 n4 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p3 fast0 n8 n2 n3 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p1 slow1-0 n6 n0 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p2 fast0 n8 n1 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p0 fast0 n4 n2 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p2 slow1-0 n4 n1 n0 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p2 fast0 n8 n0 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p2 fast0 n0 n1 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p0 fast1 n6 n0 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p0 fast1 n0 n3 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p0 fast0 n2 n1 n0 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION move-down-slow slow0-0 n3 n0 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION move-down-slow slow0-0 n3 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p2 fast0 n0 n2 n3 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p1 fast0 n4 n1 n0 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p2 fast1 n4 n2 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p2 slow1-0 n5 n2 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p0 fast1 n4 n2 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p3 slow0-0 n1 n1 n0 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p0 slow1-0 n6 n0 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p0 fast1 n2 n1 n0 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p2 slow1-0 n6 n1 n0 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p0 slow0-0 n4 n1 n0 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p2 fast1 n8 n1 n0 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION move-up-slow slow0-0 n2 n3 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION move-up-slow slow0-0 n2 n4 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p0 fast0 n6 n3 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION move-up-slow slow0-0 n0 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION move-up-slow slow0-0 n0 n3 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION move-up-slow slow0-0 n0 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p3 fast0 n2 n2 n3 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p0 fast1 n4 n1 n0 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION move-up-slow slow0-0 n0 n4 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION move-down-slow slow0-0 n3 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p2 fast0 n2 n2 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p0 fast1 n4 n2 n3 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p2 slow1-0 n4 n2 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p1 fast0 n8 n2 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p3 fast1 n4 n1 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p1 slow1-0 n6 n2 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p2 slow0-0 n0 n1 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p1 fast0 n8 n3 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p2 fast0 n0 n2 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p3 slow1-0 n6 n1 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p1 slow0-0 n0 n2 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p2 fast0 n0 n1 n0 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p3 slow1-0 n4 n0 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p0 fast1 n6 n1 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p0 slow0-0 n1 n1 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p0 fast1 n6 n3 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p2 fast0 n4 n0 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p3 fast1 n4 n2 n3 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p3 fast1 n2 n1 n0 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p0 fast1 n8 n1 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p1 slow0-0 n2 n1 n0 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p2 fast1 n6 n1 n0 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION move-down-fast fast0 n8 n6 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p0 fast1 n4 n0 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION move-down-fast fast0 n8 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p2 slow0-0 n1 n1 n0 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p0 fast0 n2 n1 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION move-down-fast fast0 n8 n4 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p0 slow0-0 n0 n2 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION move-down-fast fast0 n8 n0 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p3 slow0-0 n0 n1 n0 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p3 fast1 n6 n0 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p1 fast0 n6 n0 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p3 slow0-0 n2 n1 n0 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p0 fast0 n8 n1 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p3 slow1-0 n4 n1 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION move-down-slow slow1-0 n8 n4 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION move-down-slow slow1-0 n8 n5 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p3 fast0 n6 n2 n3 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p0 fast0 n0 n0 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p3 fast1 n2 n0 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p0 fast1 n8 n2 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p1 slow1-0 n4 n1 n0 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p3 slow0-0 n1 n2 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION move-down-slow slow1-0 n8 n7 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION move-down-slow slow1-0 n8 n6 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p3 slow0-0 n3 n1 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p2 fast0 n0 n0 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p0 fast1 n4 n3 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION move-down-fast fast1 n8 n0 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p3 slow0-0 n3 n2 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION move-down-fast fast1 n8 n4 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION move-down-fast fast1 n8 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION move-down-fast fast1 n8 n6 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION move-up-slow slow1-0 n5 n6 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p3 fast1 n8 n2 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION move-up-slow slow1-0 n5 n7 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION move-down-slow slow1-0 n6 n5 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION move-down-fast fast1 n6 n4 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION move-down-slow slow1-0 n6 n4 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION move-down-fast fast1 n6 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION move-up-slow slow1-0 n5 n8 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION move-down-fast fast1 n6 n0 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p2 fast1 n4 n1 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p0 slow1-0 n5 n1 n0 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p1 slow0-0 n0 n1 n0 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p1 fast0 n4 n3 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p3 fast0 n8 n1 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p0 fast0 n0 n1 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p0 slow0-0 n0 n1 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p2 fast1 n8 n3 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p1 slow1-0 n4 n2 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p2 fast0 n2 n2 n3 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p2 fast0 n4 n2 n3 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION move-down-slow slow0-0 n2 n1 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p0 fast1 n0 n1 n0 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p0 fast0 n6 n1 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION board p1 slow1-0 n4 n1 n2 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION move-down-fast fast1 n2 n0 not assigned to any agent!
+2017-02-27 12:53:10 [WARN ]: cz.agents.dimaptools.input.sas.SASPreprocessor - ACTION leave p2 slow0-0 n1 n2 n1 not assigned to any agent!
+2017-02-27 12:53:46 [WARN ]: cz.agents.dimaptools.search.GlobalLocalDistributedBestFirstSearch -  by me (rover0) - 170
+2017-02-27 12:54:13 [WARN ]: cz.agents.dimaptools.search.GlobalLocalDistributedBestFirstSearch -  by me (player-02) - 1301
+2017-02-27 12:54:42 [WARN ]: cz.agents.dimaptools.search.GlobalLocalDistributedBestFirstSearch -  by me (player-02) - 1096
+2017-02-27 12:54:50 [WARN ]: cz.agents.dimaptools.search.GlobalLocalDistributedBestFirstSearch -  by me (player-01) - 1692
+2017-02-27 12:54:50 [WARN ]: cz.agents.dimaptools.search.GlobalLocalDistributedBestFirstSearch -  by me (player-02) - 1696
+2017-02-27 12:54:56 [WARN ]: cz.agents.dimaptools.search.GlobalLocalDistributedBestFirstSearch -  by me (player-01) - 1748
+2017-02-27 12:54:56 [WARN ]: cz.agents.dimaptools.search.GlobalLocalDistributedBestFirstSearch -  by me (player-02) - 1751
+2017-02-27 12:56:00 [WARN ]: cz.agents.dimaptools.search.GlobalLocalDistributedBestFirstSearch -  by me (player-01) - 1442
+2017-02-27 12:56:00 [WARN ]: cz.agents.dimaptools.search.GlobalLocalDistributedBestFirstSearch -  by me (player-02) - 1458
+2017-02-27 12:58:53 [WARN ]: cz.agents.dimaptools.search.GlobalLocalDistributedBestFirstSearch -  by me (player-01) - 1280
+2017-02-27 12:58:54 [WARN ]: cz.agents.dimaptools.search.GlobalLocalDistributedBestFirstSearch - player-01 receive PLANNING_FINISHED!
+2017-02-27 12:58:54 [WARN ]: cz.agents.alite.communication.zeromq.experimental.SimpleAgent - player-01 close connections
+2017-02-27 01:02:38 [WARN ]: cz.agents.dimaptools.search.GlobalLocalDistributedBestFirstSearch -  by me (player-02) - 1589
+2017-02-27 06:44:00 [WARN ]: cz.agents.dimaptools.search.GlobalLocalDistributedBestFirstSearch -  by me (player-01) - 1448
+2017-02-27 06:44:00 [WARN ]: cz.agents.dimaptools.search.GlobalLocalDistributedBestFirstSearch - player-01 receive PLANNING_FINISHED!
+2017-02-27 06:44:00 [WARN ]: cz.agents.alite.communication.zeromq.experimental.SimpleAgent - player-01 close connections
+2017-02-27 06:44:05 [WARN ]: cz.agents.dimaptools.search.GlobalLocalDistributedBestFirstSearch -  by me (player-02) - 1387
+2017-02-27 07:06:26 [WARN ]: cz.agents.dimaptools.search.GlobalLocalDistributedBestFirstSearch -  by me (player-01) - 1692
+2017-02-27 07:06:26 [WARN ]: cz.agents.dimaptools.search.GlobalLocalDistributedBestFirstSearch -  by me (player-02) - 1696
+2017-02-28 02:29:12 [WARN ]: cz.agents.dimaptools.search.GlobalLocalDistributedBestFirstSearch -  by me (player-01) - 1443
+2017-02-28 02:29:12 [WARN ]: cz.agents.dimaptools.search.GlobalLocalDistributedBestFirstSearch - player-01 receive PLANNING_FINISHED!
+2017-02-28 02:29:12 [WARN ]: cz.agents.alite.communication.zeromq.experimental.SimpleAgent - player-01 close connections
+2018-01-12 05:20:39 [WARN ]: cz.agents.dimaptools.search.GlobalLocalDistributedBestFirstSearch -  by me (player-01) - 1504
+2018-01-12 05:20:39 [WARN ]: cz.agents.dimaptools.search.GlobalLocalDistributedBestFirstSearch -  by me (player-02) - 1511
+2018-01-12 05:20:39 [WARN ]: cz.agents.dimaptools.search.GlobalLocalDistributedBestFirstSearch - player-01 receive PLANNING_FINISHED!
+2018-01-12 05:20:39 [WARN ]: cz.agents.alite.communication.zeromq.experimental.SimpleAgent - player-01 close connections
+2018-03-24 11:28:01 [WARN ]: cz.agents.dimaptools.search.GlobalLocalDistributedBestFirstSearch -  by me (player-01) - 1218
+2018-03-24 11:28:01 [WARN ]: cz.agents.dimaptools.search.GlobalLocalDistributedBestFirstSearch -  by me (player-02) - 1225
